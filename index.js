@@ -3,7 +3,7 @@ function deduct(b, a) {
 
 	let valueA = b;
 	let valueB = a;
-	let result = valueB+valueA;
+	let result = valueB - valueA;
 	return result;
 }
 function sum(a, b) {
