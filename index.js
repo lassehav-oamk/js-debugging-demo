@@ -1,6 +1,18 @@
-function sum(a, b) {
-    return a + b;
+
+function deduct(b, a) {
+
+	let valueA = b;
+	let valueB = a;
+	let result = valueB+valueA;
+	return result;
 }
+function sum(a, b) {
+    let valueB = a;
+    let valueA = b;
+    let result = valueA + valueB;
+    return result;
+}
+
 
 function max(a, b) {
     if (a > b) {
