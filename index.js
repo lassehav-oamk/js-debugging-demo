@@ -1,10 +1,6 @@
 
-function deduct(b, a) {
-
-	let valueA = b;
-	let valueB = a;
-	let result = valueB+valueA;
-	return result;
+function deduct(a, b) {
+    return a - b;
 }
 
 sum = (a, b) => {
