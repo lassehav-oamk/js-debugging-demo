@@ -6,11 +6,9 @@ function deduct(b, a) {
 	let result = valueB - valueA;
 	return result;
 }
-function sum(a, b) {
-    let valueB = a;
-    let valueA = b;
-    let result = valueA + valueB;
-    return result;
+
+sum = (a, b) => {
+    return a + b;
 }
 
 
