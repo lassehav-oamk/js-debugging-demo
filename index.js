@@ -1,8 +1,5 @@
-function sum(a, b) {
-    let value1 = a;
-    let value2 = a;
-    let result = valueA + valueB;
-    return result;
+sum = (a, b) => {
+    return a + b;
 }
 
 function max(a, b) {
